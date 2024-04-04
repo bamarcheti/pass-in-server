@@ -118,3 +118,9 @@ Para abrir a ferramenta do Prisma
 ```
 npx prisma studio
 ```
+
+Para rodar o arquivo que popula o banco do projeto
+
+```
+npx prisma db seed
+```

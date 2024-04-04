@@ -10,6 +10,8 @@ export async function createEvent(app: FastifyInstance) {
     "/events",
     {
       schema: {
+        summary: "Create an event",
+        tags: ["events"],
         body: z.object({
           title: z.string().min(4),
           details: z.string().nullable(),
@@ -33,7 +35,7 @@ export async function createEvent(app: FastifyInstance) {
         },
       });
 
-      if (eventWithSameSlug != null) {
+      if (eventWithSameSlug !== null) {
         throw new BadRequest("Another event with same title already exists.");
       }
 

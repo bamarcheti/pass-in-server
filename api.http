@@ -9,20 +9,26 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:3333/events/1176d54b-ef94-4259-89ba-f494380ae397/attendees
+POST http://localhost:3333/events/9e9bd979-9d10-4915-b339-3786b1634f33/attendees
 Content-Type: application/json
 
 {
   "name": "Diego Fernandes",
-  "email": "diego2@rocketseat.com.br"
+  "email": "diego@rocketseat.com.br"
 }
 
 ###
 
-GET http://localhost:3333/events/1176d54b-ef94-4259-89ba-f494380ae397
+GET http://localhost:3333/events/9e9bd979-9d10-4915-b339-3786b1634f33
 
 ###
 
-GET http://localhost:3333/attendees/2/badge
+GET http://localhost:3333/attendees/6/badge
 
 ###
+
+GET http://localhost:3333/attendees/6/check-in
+
+###
+
+GET http://localhost:3333/events/9e9bd979-9d10-4915-b339-3786b1634f33/attendees?query=bárbara
