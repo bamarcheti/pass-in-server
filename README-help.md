@@ -49,6 +49,12 @@ Object Relational Mapping (Hibernate / Doctrine / ActiveRecord)
 // 40x => Erro do cliente (Erro em alguma informação enviada por QUEM está fazendo a chamada para a API)
 // 50x => Erro do servidor (Um erro que está acontecendo INDEPENDENTE do que está sendo enviado para o servidor)
 
+## Documentação
+
+Para documentação do projeto, acesse o link: https://efficient-sloth-d85.notion.site/Node-js-a51a784e58e8482daa4c188b1659f5df
+
+Para acessar o repositório do projeto no github, acesse o link: https://github.com/rocketseat-education/nlw-unite-nodejs
+
 ## Documentação da API (Swagger)
 
 Para documentação da API, acesse o link: https://nlw-unite-nodejs.onrender.com/docs
