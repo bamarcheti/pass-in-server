@@ -2,14 +2,14 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": "Novo evento",
-  "details": null,
-  "maximumAttendees": 1
+  "title": "Startup Summit",
+  "details": "O melhor evento de startups da América Latina",
+  "maximumAttendees": 200
 }
 
 ###
 
-POST http://localhost:3333/events/9e9bd979-9d10-4915-b339-3786b1634f33/attendees
+POST http://localhost:3333/events/73234f8f-92c4-4dd3-950b-9707bee50d71/attendees
 Content-Type: application/json
 
 {
@@ -19,16 +19,16 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/events/9e9bd979-9d10-4915-b339-3786b1634f33
+GET http://localhost:3333/events/73234f8f-92c4-4dd3-950b-9707bee50d71
 
 ###
 
-GET http://localhost:3333/attendees/6/badge
+GET http://localhost:3333/attendees/7/badge
 
 ###
 
-GET http://localhost:3333/attendees/6/check-in
+GET http://localhost:3333/attendees/7/check-in
 
 ###
 
-GET http://localhost:3333/events/9e9bd979-9d10-4915-b339-3786b1634f33/attendees?query=bárbara
+GET http://localhost:3333/events/73234f8f-92c4-4dd3-950b-9707bee50d71/attendees?query=diego
