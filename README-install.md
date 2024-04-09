@@ -10,7 +10,7 @@
 > _Prisma_
 >
 > - Execute `npx prisma migrate dev` **ou** `npx run db:migrate` para criar um schema do prisma.
-> - Execute `npx prisma studio` **ou** `npx run db:studio` para rodar o prisma.
+> - Execute `npx prisma studio` **ou** `npx run db:studio` **ou** `prisma studio --port 5556` para rodar o prisma.
 
 > _Seed_
 >
