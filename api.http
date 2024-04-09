@@ -9,26 +9,30 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:3333/events/73234f8f-92c4-4dd3-950b-9707bee50d71/attendees
+POST http://localhost:3333/events/96debd8c-c19f-4f1c-8ff9-7ceadbbf83a5/attendees
 Content-Type: application/json
 
 {
-  "name": "Diego Fernandes",
-  "email": "diego@rocketseat.com.br"
+  "name": "Bárbara Marcheti Fiorin",
+  "email": "bmarchetifiorin@gmail.com"
 }
 
 ###
 
-GET http://localhost:3333/events/73234f8f-92c4-4dd3-950b-9707bee50d71
+GET http://localhost:3333/events/96debd8c-c19f-4f1c-8ff9-7ceadbbf83a5
 
 ###
 
-GET http://localhost:3333/attendees/7/badge
+GET http://localhost:3333/attendees/10070/badge
 
 ###
 
-GET http://localhost:3333/attendees/7/check-in
+GET http://localhost:3333/attendees/10121/check-in
 
 ###
 
-GET http://localhost:3333/events/73234f8f-92c4-4dd3-950b-9707bee50d71/attendees?query=diego
+GET http://localhost:3333/events/96debd8c-c19f-4f1c-8ff9-7ceadbbf83a5/attendees
+
+###
+
+GET http://localhost:3333/events/96debd8c-c19f-4f1c-8ff9-7ceadbbf83a5/attendees?query=diego

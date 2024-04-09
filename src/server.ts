@@ -56,4 +56,5 @@ app.setErrorHandler(errorHandler);
 
 app.listen({ port: 3333, host: "0.0.0.0" }).then(() => {
   console.log("HTTP server running!");
+  console.log("Servidor rodando em http://localhost:3333");
 });
